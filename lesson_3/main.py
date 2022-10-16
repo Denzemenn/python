@@ -1,34 +1,23 @@
-x = "C:Python3/python.exe"
+# print("price")
+# usd = int(input("dollars: "))
+# cent = int(input("cents: "))
+# price = usd * 100 + cent
+# count = int(input("amount: "))
+# needa_pay = count * price
+# print(f"{needa_pay // 100} usd and {needa_pay % 100} cents")
+# money = int(input("u give mone: "))
+# mone_bacc = money * 100
+# sdacha = mone_bacc - needa_pay
+# print(f"sdacha:{sdacha // 100} usd and {sdacha % 100} cents")
+# x = int(input("number: "))
+# if x % 2 == 1:
+#     x = x + 1
+# elif x % 2 == 0:
+#     x = x +
+# n = int(input("seconds: "))
+# h = n // 3600
+# m = n //60
+# s = n % 60
+# print(f"{h} hours, {m} minutes and {s} seconds"
 
-print("имя: ", x[11:22])
-print("имя: ", x[-10:])
-print("расширение: ", x[-3:])
-print("имя каталога:", x[3:10])
-print("полный путь к каталогу: ", x[0:10])
-print("полный путь к каталогу: ", x[:10])
 
-x1 = x.split("\\")
-print(x1)
-print("имя: ", x1[2])
-chapter_1 = input("Chapter 1: ")
-page_1 = input("Page: ")
-chapter_2 = input("Chapter 2: ")
-page_2 = input("Page: ")
-chapter_3 = input("Chapter 3: ")
-page_3 = input("Page: ")
-
-print(chapter_1.ljust + page_1.rjust(15))
-print(chapter_2.ljust + page_2.rjust(15))
-print(chapter_3.ljust + page_3.rjust(15))
-temp = text.split("'")
-print(temp)
-temp2 = temp[0] + temp[1] + temp[2]
-print(temp2)
-number = int(temp2)
-text = "12'345'678"
-temp = text[:2] + text[3:6] + text[7]
-number = int(temp)
-print(temp)
-temp = text.replace("'", "")
-number = int(temp)
-print(number)
